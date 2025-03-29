@@ -6,4 +6,5 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="dc1fe3bb-f26a-4df8-a771-38b9bc2ccae5" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12" project-jdk-type="Python SDK" />
 </project>

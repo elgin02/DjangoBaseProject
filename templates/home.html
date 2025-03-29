@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Program 5</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+{% csrf_token %}
+<div id="first">
+    <label>Name:</label>
+    <input type="text" id="username">
+</div>
+
+<table id="user">
+    <!-- <tr><td>Name:</td><td><input type="text" id="username"></td></tr> -->
+    <!-- <tr><th>ZIP</th><th>Temp</th></tr> Dynamically add this instead-->
+</table>
+
+<label style="display: flex; margin-top: 30px; margin-bottom: 10px;">Add Zip Code</label>
+<div>
+    <label>ZIP:</label>
+    <input type="text" id="zipcode" maxlength="10">
+    <button id="submit">Submit</button>
+</div>
+<script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
